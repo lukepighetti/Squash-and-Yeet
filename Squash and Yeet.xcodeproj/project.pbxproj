@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4E9DDC328496FB80075E408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9DDC228496FB80075E408 /* AppDelegate.swift */; };
+		D4E9DDC528496FB80075E408 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9DDC428496FB80075E408 /* SceneDelegate.swift */; };
+		D4E9DDC828496FB80075E408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDC628496FB80075E408 /* LaunchScreen.storyboard */; };
+		D4E9DDCB28496FB80075E408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDC928496FB80075E408 /* Main.storyboard */; };
+		D4E9DDD428496FB80075E408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9DDD328496FB80075E408 /* AppDelegate.swift */; };
+		D4E9DDD728496FB80075E408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDD528496FB80075E408 /* Main.storyboard */; };
+		D4E9DDDE28496FB80075E408 /* Squash and Yeet Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D4E9DDDD28496FB80075E408 /* Squash and Yeet Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D4E9DDE828496FB80075E408 /* Squash and Yeet Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D4E9DDE728496FB80075E408 /* Squash and Yeet Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D4E9DDEE28496FB80075E408 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDA928496FB60075E408 /* Main.html */; };
+		D4E9DDEF28496FB80075E408 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDA928496FB60075E408 /* Main.html */; };
+		D4E9DDF028496FB80075E408 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDAB28496FB60075E408 /* Icon.png */; };
+		D4E9DDF128496FB80075E408 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDAB28496FB60075E408 /* Icon.png */; };
+		D4E9DDF228496FB80075E408 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDAC28496FB60075E408 /* Style.css */; };
+		D4E9DDF328496FB80075E408 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDAC28496FB60075E408 /* Style.css */; };
+		D4E9DDF428496FB80075E408 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDAD28496FB60075E408 /* Script.js */; };
+		D4E9DDF528496FB80075E408 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDAD28496FB60075E408 /* Script.js */; };
+		D4E9DDF628496FB80075E408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9DDAE28496FB60075E408 /* ViewController.swift */; };
+		D4E9DDF728496FB80075E408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9DDAE28496FB60075E408 /* ViewController.swift */; };
+		D4E9DDF828496FB80075E408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDAF28496FB80075E408 /* Assets.xcassets */; };
+		D4E9DDF928496FB80075E408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDAF28496FB80075E408 /* Assets.xcassets */; };
+		D4E9DDFA28496FB80075E408 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9DDB128496FB80075E408 /* SafariWebExtensionHandler.swift */; };
+		D4E9DDFB28496FB80075E408 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9DDB128496FB80075E408 /* SafariWebExtensionHandler.swift */; };
+		D4E9DDFC28496FB80075E408 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDB328496FB80075E408 /* _locales */; };
+		D4E9DDFD28496FB80075E408 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDB328496FB80075E408 /* _locales */; };
+		D4E9DDFE28496FB80075E408 /* images in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDB428496FB80075E408 /* images */; };
+		D4E9DDFF28496FB80075E408 /* images in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDB428496FB80075E408 /* images */; };
+		D4E9DE0028496FB80075E408 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDB528496FB80075E408 /* manifest.json */; };
+		D4E9DE0128496FB80075E408 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDB528496FB80075E408 /* manifest.json */; };
+		D4E9DE0228496FB80075E408 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDB628496FB80075E408 /* background.js */; };
+		D4E9DE0328496FB80075E408 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDB628496FB80075E408 /* background.js */; };
+		D4E9DE0428496FB80075E408 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDB728496FB80075E408 /* content.js */; };
+		D4E9DE0528496FB80075E408 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDB728496FB80075E408 /* content.js */; };
+		D4E9DE0628496FB80075E408 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDB828496FB80075E408 /* popup.html */; };
+		D4E9DE0728496FB80075E408 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDB828496FB80075E408 /* popup.html */; };
+		D4E9DE0828496FB80075E408 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDB928496FB80075E408 /* popup.css */; };
+		D4E9DE0928496FB80075E408 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDB928496FB80075E408 /* popup.css */; };
+		D4E9DE0A28496FB80075E408 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDBA28496FB80075E408 /* popup.js */; };
+		D4E9DE0B28496FB80075E408 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D4E9DDBA28496FB80075E408 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4E9DDDF28496FB80075E408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E9DDA328496FB60075E408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E9DDDC28496FB80075E408;
+			remoteInfo = "Squash and Yeet Extension (iOS)";
+		};
+		D4E9DDE928496FB80075E408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E9DDA328496FB60075E408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E9DDE628496FB80075E408;
+			remoteInfo = "Squash and Yeet Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D4E9DE1128496FB80075E408 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D4E9DDDE28496FB80075E408 /* Squash and Yeet Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E9DE1828496FB80075E408 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D4E9DDE828496FB80075E408 /* Squash and Yeet Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D4E9DDAA28496FB60075E408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		D4E9DDAB28496FB60075E408 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D4E9DDAC28496FB60075E408 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		D4E9DDAD28496FB60075E408 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		D4E9DDAE28496FB60075E408 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4E9DDAF28496FB80075E408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4E9DDB128496FB80075E408 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		D4E9DDB328496FB80075E408 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		D4E9DDB428496FB80075E408 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		D4E9DDB528496FB80075E408 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		D4E9DDB628496FB80075E408 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		D4E9DDB728496FB80075E408 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		D4E9DDB828496FB80075E408 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		D4E9DDB928496FB80075E408 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		D4E9DDBA28496FB80075E408 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		D4E9DDBF28496FB80075E408 /* Squash and Yeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Squash and Yeet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E9DDC228496FB80075E408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4E9DDC428496FB80075E408 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4E9DDC728496FB80075E408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4E9DDCA28496FB80075E408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4E9DDCC28496FB80075E408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E9DDD128496FB80075E408 /* Squash and Yeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Squash and Yeet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E9DDD328496FB80075E408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4E9DDD628496FB80075E408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4E9DDD828496FB80075E408 /* Squash and Yeet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Squash and Yeet.entitlements"; sourceTree = "<group>"; };
+		D4E9DDDD28496FB80075E408 /* Squash and Yeet Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Squash and Yeet Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E9DDE228496FB80075E408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E9DDE728496FB80075E408 /* Squash and Yeet Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Squash and Yeet Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E9DDEC28496FB80075E408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E9DDED28496FB80075E408 /* Squash and Yeet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Squash and Yeet.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4E9DDBC28496FB80075E408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E9DDCE28496FB80075E408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E9DDDA28496FB80075E408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E9DDE428496FB80075E408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4E9DDA228496FB60075E408 = {
+			isa = PBXGroup;
+			children = (
+				D4E9DDA728496FB60075E408 /* Shared (App) */,
+				D4E9DDB028496FB80075E408 /* Shared (Extension) */,
+				D4E9DDC128496FB80075E408 /* iOS (App) */,
+				D4E9DDD228496FB80075E408 /* macOS (App) */,
+				D4E9DDE128496FB80075E408 /* iOS (Extension) */,
+				D4E9DDEB28496FB80075E408 /* macOS (Extension) */,
+				D4E9DDC028496FB80075E408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4E9DDA728496FB60075E408 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D4E9DDAE28496FB60075E408 /* ViewController.swift */,
+				D4E9DDAF28496FB80075E408 /* Assets.xcassets */,
+				D4E9DDA828496FB60075E408 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		D4E9DDA828496FB60075E408 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4E9DDA928496FB60075E408 /* Main.html */,
+				D4E9DDAB28496FB60075E408 /* Icon.png */,
+				D4E9DDAC28496FB60075E408 /* Style.css */,
+				D4E9DDAD28496FB60075E408 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D4E9DDB028496FB80075E408 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D4E9DDB128496FB80075E408 /* SafariWebExtensionHandler.swift */,
+				D4E9DDB228496FB80075E408 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		D4E9DDB228496FB80075E408 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4E9DDB328496FB80075E408 /* _locales */,
+				D4E9DDB428496FB80075E408 /* images */,
+				D4E9DDB528496FB80075E408 /* manifest.json */,
+				D4E9DDB628496FB80075E408 /* background.js */,
+				D4E9DDB728496FB80075E408 /* content.js */,
+				D4E9DDB828496FB80075E408 /* popup.html */,
+				D4E9DDB928496FB80075E408 /* popup.css */,
+				D4E9DDBA28496FB80075E408 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D4E9DDC028496FB80075E408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4E9DDBF28496FB80075E408 /* Squash and Yeet.app */,
+				D4E9DDD128496FB80075E408 /* Squash and Yeet.app */,
+				D4E9DDDD28496FB80075E408 /* Squash and Yeet Extension.appex */,
+				D4E9DDE728496FB80075E408 /* Squash and Yeet Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4E9DDC128496FB80075E408 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D4E9DDC228496FB80075E408 /* AppDelegate.swift */,
+				D4E9DDC428496FB80075E408 /* SceneDelegate.swift */,
+				D4E9DDC628496FB80075E408 /* LaunchScreen.storyboard */,
+				D4E9DDC928496FB80075E408 /* Main.storyboard */,
+				D4E9DDCC28496FB80075E408 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		D4E9DDD228496FB80075E408 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D4E9DDD328496FB80075E408 /* AppDelegate.swift */,
+				D4E9DDD528496FB80075E408 /* Main.storyboard */,
+				D4E9DDD828496FB80075E408 /* Squash and Yeet.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		D4E9DDE128496FB80075E408 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D4E9DDE228496FB80075E408 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		D4E9DDEB28496FB80075E408 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D4E9DDEC28496FB80075E408 /* Info.plist */,
+				D4E9DDED28496FB80075E408 /* Squash and Yeet.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4E9DDBE28496FB80075E408 /* Squash and Yeet (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E9DE1228496FB80075E408 /* Build configuration list for PBXNativeTarget "Squash and Yeet (iOS)" */;
+			buildPhases = (
+				D4E9DDBB28496FB80075E408 /* Sources */,
+				D4E9DDBC28496FB80075E408 /* Frameworks */,
+				D4E9DDBD28496FB80075E408 /* Resources */,
+				D4E9DE1128496FB80075E408 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E9DDE028496FB80075E408 /* PBXTargetDependency */,
+			);
+			name = "Squash and Yeet (iOS)";
+			productName = "Squash and Yeet (iOS)";
+			productReference = D4E9DDBF28496FB80075E408 /* Squash and Yeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4E9DDD028496FB80075E408 /* Squash and Yeet (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E9DE1928496FB80075E408 /* Build configuration list for PBXNativeTarget "Squash and Yeet (macOS)" */;
+			buildPhases = (
+				D4E9DDCD28496FB80075E408 /* Sources */,
+				D4E9DDCE28496FB80075E408 /* Frameworks */,
+				D4E9DDCF28496FB80075E408 /* Resources */,
+				D4E9DE1828496FB80075E408 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E9DDEA28496FB80075E408 /* PBXTargetDependency */,
+			);
+			name = "Squash and Yeet (macOS)";
+			productName = "Squash and Yeet (macOS)";
+			productReference = D4E9DDD128496FB80075E408 /* Squash and Yeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4E9DDDC28496FB80075E408 /* Squash and Yeet Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E9DE0E28496FB80075E408 /* Build configuration list for PBXNativeTarget "Squash and Yeet Extension (iOS)" */;
+			buildPhases = (
+				D4E9DDD928496FB80075E408 /* Sources */,
+				D4E9DDDA28496FB80075E408 /* Frameworks */,
+				D4E9DDDB28496FB80075E408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Squash and Yeet Extension (iOS)";
+			productName = "Squash and Yeet Extension (iOS)";
+			productReference = D4E9DDDD28496FB80075E408 /* Squash and Yeet Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D4E9DDE628496FB80075E408 /* Squash and Yeet Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E9DE1528496FB80075E408 /* Build configuration list for PBXNativeTarget "Squash and Yeet Extension (macOS)" */;
+			buildPhases = (
+				D4E9DDE328496FB80075E408 /* Sources */,
+				D4E9DDE428496FB80075E408 /* Frameworks */,
+				D4E9DDE528496FB80075E408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Squash and Yeet Extension (macOS)";
+			productName = "Squash and Yeet Extension (macOS)";
+			productReference = D4E9DDE728496FB80075E408 /* Squash and Yeet Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4E9DDA328496FB60075E408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D4E9DDBE28496FB80075E408 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					D4E9DDD028496FB80075E408 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					D4E9DDDC28496FB80075E408 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					D4E9DDE628496FB80075E408 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = D4E9DDA628496FB60075E408 /* Build configuration list for PBXProject "Squash and Yeet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4E9DDA228496FB60075E408;
+			productRefGroup = D4E9DDC028496FB80075E408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4E9DDBE28496FB80075E408 /* Squash and Yeet (iOS) */,
+				D4E9DDD028496FB80075E408 /* Squash and Yeet (macOS) */,
+				D4E9DDDC28496FB80075E408 /* Squash and Yeet Extension (iOS) */,
+				D4E9DDE628496FB80075E408 /* Squash and Yeet Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4E9DDBD28496FB80075E408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E9DDF028496FB80075E408 /* Icon.png in Resources */,
+				D4E9DDC828496FB80075E408 /* LaunchScreen.storyboard in Resources */,
+				D4E9DDEE28496FB80075E408 /* Main.html in Resources */,
+				D4E9DDF428496FB80075E408 /* Script.js in Resources */,
+				D4E9DDF828496FB80075E408 /* Assets.xcassets in Resources */,
+				D4E9DDCB28496FB80075E408 /* Main.storyboard in Resources */,
+				D4E9DDF228496FB80075E408 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E9DDCF28496FB80075E408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E9DDF128496FB80075E408 /* Icon.png in Resources */,
+				D4E9DDF328496FB80075E408 /* Style.css in Resources */,
+				D4E9DDD728496FB80075E408 /* Main.storyboard in Resources */,
+				D4E9DDF528496FB80075E408 /* Script.js in Resources */,
+				D4E9DDF928496FB80075E408 /* Assets.xcassets in Resources */,
+				D4E9DDEF28496FB80075E408 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E9DDDB28496FB80075E408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E9DE0228496FB80075E408 /* background.js in Resources */,
+				D4E9DE0828496FB80075E408 /* popup.css in Resources */,
+				D4E9DE0628496FB80075E408 /* popup.html in Resources */,
+				D4E9DDFE28496FB80075E408 /* images in Resources */,
+				D4E9DE0028496FB80075E408 /* manifest.json in Resources */,
+				D4E9DDFC28496FB80075E408 /* _locales in Resources */,
+				D4E9DE0428496FB80075E408 /* content.js in Resources */,
+				D4E9DE0A28496FB80075E408 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E9DDE528496FB80075E408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E9DE0328496FB80075E408 /* background.js in Resources */,
+				D4E9DE0928496FB80075E408 /* popup.css in Resources */,
+				D4E9DE0728496FB80075E408 /* popup.html in Resources */,
+				D4E9DDFF28496FB80075E408 /* images in Resources */,
+				D4E9DE0128496FB80075E408 /* manifest.json in Resources */,
+				D4E9DDFD28496FB80075E408 /* _locales in Resources */,
+				D4E9DE0528496FB80075E408 /* content.js in Resources */,
+				D4E9DE0B28496FB80075E408 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4E9DDBB28496FB80075E408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E9DDF628496FB80075E408 /* ViewController.swift in Sources */,
+				D4E9DDC328496FB80075E408 /* AppDelegate.swift in Sources */,
+				D4E9DDC528496FB80075E408 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E9DDCD28496FB80075E408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E9DDF728496FB80075E408 /* ViewController.swift in Sources */,
+				D4E9DDD428496FB80075E408 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E9DDD928496FB80075E408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E9DDFA28496FB80075E408 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E9DDE328496FB80075E408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E9DDFB28496FB80075E408 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4E9DDE028496FB80075E408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E9DDDC28496FB80075E408 /* Squash and Yeet Extension (iOS) */;
+			targetProxy = D4E9DDDF28496FB80075E408 /* PBXContainerItemProxy */;
+		};
+		D4E9DDEA28496FB80075E408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E9DDE628496FB80075E408 /* Squash and Yeet Extension (macOS) */;
+			targetProxy = D4E9DDE928496FB80075E408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4E9DDA928496FB60075E408 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E9DDAA28496FB60075E408 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		D4E9DDC628496FB80075E408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E9DDC728496FB80075E408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D4E9DDC928496FB80075E408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E9DDCA28496FB80075E408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4E9DDD528496FB80075E408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E9DDD628496FB80075E408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4E9DE0C28496FB80075E408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4E9DE0D28496FB80075E408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D4E9DE0F28496FB80075E408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TA8U33SGB8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Squash and Yeet Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukepighetti.Squash-and-Yeet.Extension";
+				PRODUCT_NAME = "Squash and Yeet Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4E9DE1028496FB80075E408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TA8U33SGB8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Squash and Yeet Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukepighetti.Squash-and-Yeet.Extension";
+				PRODUCT_NAME = "Squash and Yeet Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4E9DE1328496FB80075E408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TA8U33SGB8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Squash and Yeet";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukepighetti.Squash-and-Yeet";
+				PRODUCT_NAME = "Squash and Yeet";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4E9DE1428496FB80075E408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TA8U33SGB8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Squash and Yeet";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukepighetti.Squash-and-Yeet";
+				PRODUCT_NAME = "Squash and Yeet";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4E9DE1628496FB80075E408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Squash and Yeet.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TA8U33SGB8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Squash and Yeet Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukepighetti.Squash-and-Yeet.Extension";
+				PRODUCT_NAME = "Squash and Yeet Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D4E9DE1728496FB80075E408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Squash and Yeet.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TA8U33SGB8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Squash and Yeet Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukepighetti.Squash-and-Yeet.Extension";
+				PRODUCT_NAME = "Squash and Yeet Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D4E9DE1A28496FB80075E408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Squash and Yeet.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TA8U33SGB8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Squash and Yeet";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukepighetti.Squash-and-Yeet";
+				PRODUCT_NAME = "Squash and Yeet";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D4E9DE1B28496FB80075E408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Squash and Yeet.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TA8U33SGB8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Squash and Yeet";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lukepighetti.Squash-and-Yeet";
+				PRODUCT_NAME = "Squash and Yeet";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4E9DDA628496FB60075E408 /* Build configuration list for PBXProject "Squash and Yeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E9DE0C28496FB80075E408 /* Debug */,
+				D4E9DE0D28496FB80075E408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E9DE0E28496FB80075E408 /* Build configuration list for PBXNativeTarget "Squash and Yeet Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E9DE0F28496FB80075E408 /* Debug */,
+				D4E9DE1028496FB80075E408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E9DE1228496FB80075E408 /* Build configuration list for PBXNativeTarget "Squash and Yeet (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E9DE1328496FB80075E408 /* Debug */,
+				D4E9DE1428496FB80075E408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E9DE1528496FB80075E408 /* Build configuration list for PBXNativeTarget "Squash and Yeet Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E9DE1628496FB80075E408 /* Debug */,
+				D4E9DE1728496FB80075E408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E9DE1928496FB80075E408 /* Build configuration list for PBXNativeTarget "Squash and Yeet (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E9DE1A28496FB80075E408 /* Debug */,
+				D4E9DE1B28496FB80075E408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4E9DDA328496FB60075E408 /* Project object */;
+}
