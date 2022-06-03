@@ -6,29 +6,27 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
     console.log("Received request: ", request);
 });
 
-const duration = 50;
 
-const interval = setInterval(()=>{
-    const el = document.querySelector('.btn-group-squash');
+setInterval(()=>{
+    var el;
+    
+    el = document.querySelector('.btn-group-squash');
     if (el != null){
         el.textContent = 'Squash and Yeet';
-        clearInterval(interval);
     }
-}, duration);
-
-const interval2 = setInterval(()=>{
-    const el =     document.querySelector('[value="squash"]').querySelector('span');
+    
+    el = document.querySelector('[value="squash"]').querySelector('span');
     if (el != null){
         el.textContent = 'Squash and yeet';
-        clearInterval(interval2);
     }
-}, duration);
-
-
-const interval3 = setInterval(()=>{
-    const el =     document.querySelector('[value="squash"]').querySelector('.description');
+    
+    el = document.querySelector('[value="squash"]').querySelector('.description');
     if (el != null){
-        el.textContent = el.textContent.replace('added to', 'yeeted into');
-        clearInterval(interval3);
+        el.textContent = el.textContent.replace('added to', 'yeeted into').replace('commit in the base branch', 'commit and yeeted into the base branch');
     }
-}, duration);
+    
+    el = document.querySelector('.js-merge-commit-button[value="squash"]')
+    if (el != null){
+        el.textContent = el.textContent.replace('uash and merge', 'uash and yeet');
+    }
+}, 250);
